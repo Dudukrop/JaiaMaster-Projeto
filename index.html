@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaiaMaster</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="top">
+            <h3>JaiaMaster.</h3>
+        </div>
+        <header>
+            <div class="user">
+                <img src="img/Jakeline.jpeg" alt="">
+                <h5>Jakeline Souza</h5>
+                <span>Administrador</span>
+            </div>
+            <nav>
+                <div class="link">
+                    <a href="#"><box-icon class="icon" name='home-alt-2'></box-icon> Dashboard</a>
+                    <a href="#"><box-icon class="icon" name='user'></box-icon> Users</a>
+                    <a href="#"><box-icon class="icon" name='line-chart'></box-icon> Analitycs</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h2>Clientes</h2>
+            <div class="box-principal">
+                <div class="box1">
+                    <div class="fundo">
+                        <box-icon name='group'></box-icon>
+                    </div>
+                    <div class="texto">
+                        <span id="clientes" class="numero">
+                        </span>
+                        <br>
+                        <span class="subtexto">
+                            Clientes
+                        </span>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="fundo">
+                        <box-icon name='user-check'></box-icon>
+                    </div>
+                    <div class="texto">
+                        <span id="pagos" class="numero">
+                            176
+                        </span>
+                        <br>
+                        <span class="subtexto">
+                            Pagos
+                        </span>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="fundo">
+                        <box-icon name='user-x'></box-icon>
+                    </div>
+                    <div class="texto">
+                        <span class="numero">
+                            37
+                        </span>
+                        <br>
+                        <span class="subtexto">
+                            Pendentes
+                        </span>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="fundo">
+                        <box-icon name='user-plus'></box-icon>
+                    </div>
+                    <div class="texto">
+                        <span class="subtexto">
+                            Add Clientes
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="tabela">
+                <div class="titulo-tabela">
+                    <span>Contrato</span>
+                    <span>Nome</span>
+                    <span class="pagamento">Pagamento</span>
+                    <span class="forma-pagamento">Forma Pagamento</span>
+                    <span class="status">Status</span>
+                    <span>Vencimento</span>
+                </div>
+                <table>
+                    <tr>
+                        <td>2345</td>
+                        <td>Camilly</td>
+                        <td class="pago">pago</td>
+                        <td>cartão</td>
+                        <td>sim</td>
+                        <td>20/02/2024</td>
+                    </tr>
+                    <tr>
+                        <td>2345</td>
+                        <td>Camilly</td>
+                        <td class="pago">pago</td>
+                        <td>cartão</td>
+                        <td>sim</td>
+                        <td>20/02/2024</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
